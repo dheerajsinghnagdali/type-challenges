@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "format": "prettier -w .",
+    "watch": "tsc --watch --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajsinghnagdali/type-challenges.git"
+  },
+  "author": "Dheeraj Singh Nagdali <dheerajsinghnagdali@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dheerajsinghnagdali/type-challenges/issues"
+  },
+  "homepage": "https://github.com/dheerajsinghnagdali/type-challenges#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "prettier": {}
+}
