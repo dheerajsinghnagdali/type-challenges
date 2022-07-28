@@ -22,11 +22,7 @@
 
 /* _____________ Your Code Here _____________ */
 
-type First<T extends readonly any[]> = T extends never[]
-  ? never
-  : T extends [infer F, ...infer R]
-  ? F
-  : T;
+type First<T extends readonly any[]> = T extends never[] ? never : T[0];
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from "@type-challenges/utils";

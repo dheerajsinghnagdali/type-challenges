@@ -28,7 +28,7 @@ type MyAwaited<TPromise extends Promise<any>> = TPromise extends Promise<
   ? R extends Promise<any>
     ? MyAwaited<R>
     : R
-  : TPromise;
+  : never;
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from "@type-challenges/utils";
