@@ -16,11 +16,11 @@ This repository contains solutions to common TypeScript problems, designed as a 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/typescript-problems.git
+   git clone https://github.com/dheerajsinghnagdali/type-challenges.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd typescript-problems
+   cd type-challenges
    ```
 3. Install dependencies:
    ```bash
